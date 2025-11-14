@@ -3,11 +3,12 @@ Graph-based, risk-aware degree planning web app for University of Florida CS, Da
 
 GatorPath uses a graph-based model of the UF curriculum to generate personalized, prerequisite-feasible degree paths for UF undergraduates. The system combines:
 
-**Curriculum graph**: UF CS/DS/Stats courses modeled as a directed acyclic graph (DAG) with prerequisite edges and course attributes.
-**Risk modeling**: statistical / ML models that estimate each student's probability of struggling in a candidate course based on their profile and past coursework.
-**Hybrid recommendation**: content-based scoring + risk-aware adjustment + path constraints to suggest courses, multi-semester plans, and external learning resources.
+- **Curriculum graph**: UF CS/DS/Stats courses modeled as a directed acyclic graph (DAG) with prerequisite edges and course attributes.
+- **Risk modeling**: statistical / ML models that estimate each student's probability of struggling in a candidate course based on their profile and past coursework.
+- **Hybrid recommendation**: content-based scoring + risk-aware adjustment + path constraints to suggest courses, multi-semester plans, and external learning resources.
 
 Although the first version is UF-specific, the framework is designed so that the curriculum graph and policies can be swapped out to support other universities in the future.
+
 
 ## Project Timeline
 
