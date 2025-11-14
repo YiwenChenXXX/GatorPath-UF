@@ -1,7 +1,7 @@
 # GatorPath-UF
 Graph-based, risk-aware degree planning web app for University of Florida CS, Data Science, and Statistics students.
 
-GatorPath uses a graph-based model of the UF curriculum to generate personalized, prerequisite-feasible degree paths for UF undergraduates. The system combines (the features are still developing):
+GatorPath uses a graph-based model of the UF curriculum to generate personalized, prerequisite-feasible degree paths for UF undergraduates. The system combines (more features are still being developed):
 
 - **Curriculum graph**: UF CS/DS/Stats courses modeled as a directed acyclic graph (DAG) with prerequisite edges and course attributes.
 - **Risk modeling**: statistical / ML models that estimate each student's probability of struggling in a candidate course based on their profile and past coursework.
