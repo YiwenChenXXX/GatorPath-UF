@@ -1,14 +1,15 @@
 # GatorPath-UF
-Graph-based, risk-aware degree planning website for University of Florida undergraduate Data Science students.
 
-GatorPath uses a graph-based model of the UF curriculum to generate personalized, prerequisite-feasible degree paths for UF undergraduates. The system combines (more features are still being developed):
+Graph-based, risk-aware degree planning and ecosystem navigation website for University of Florida undergraduate Data Science students.
+
+GatorPath uses a graph-based model of the UF Data Science curriculum and surrounding ecosystem to generate personalized, prerequisite-feasible degree paths and surface relevant resources for UF DS undergraduates. The system combines (more features are still being developed):
 
 - **Curriculum graph**: UF DS courses modeled as a directed acyclic graph (DAG) with prerequisite edges and course attributes.
 - **Risk modeling**: statistical / ML models that estimate each student's probability of struggling in a candidate course based on their profile and past coursework.
 - **Hybrid recommendation**: content-based scoring + risk-aware adjustment + path constraints to suggest courses, multi-semester plans, and external learning resources.
+- **People, labs, and ecosystem**: structured information on DS-related faculty, labs, student organizations, and spaces to help students identify potential mentors and opportunities.
 
-The first version is now UF-specific and only includes Data Science, but the framework is designed so that the curriculum graph and policies can be swapped out to support other universities and majors in the future.
-
+The first version is now UF-specific and currently focuses on the Data Science major and its ecosystem, but the framework is designed so that the curriculum graph and policies can be swapped out to support other universities and majors in the future.
 
 ## Project Timeline
 
