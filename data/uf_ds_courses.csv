@@ -1,1 +1,5 @@
-
+course_id,title,credits,is_core,term_offered,prerequisites,topics,math_level,programming_level
+MAC2312,Analytical Geometry and Calculus 2,4,TRUE,Fall;Spring,,calculus;differentiation;integration,2,1
+COP3502C,Programming Fundamentals 1,4,TRUE,Fall;Spring,,programming;python,1,2
+STA2023,Introduction to Statistics 1,3,TRUE,Fall;Spring,,probability;intro stats,1,1
+STA3100,Programming with Data in R,3,TRUE,Fall;Spring,STA2023,programming;R;data analysis,2,2
